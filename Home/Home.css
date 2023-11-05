@@ -26,7 +26,7 @@ section {
     margin: auto;
 }
 
-.Frank_Lucero{
+.Frank_Lucero {
     margin-top: 20px;
     margin-left: 200px;
     float: left;
@@ -43,7 +43,9 @@ section {
     padding: auto;
 }
 
+/* ===== Flex Box ===== */
 
+ 
 
 /* ===== Nav Links ===== */
 
@@ -149,7 +151,7 @@ img {
 }
 
 body {
-    background-image: url("../Assets/BG_Image.jpg");
+    /*background-image: url("../Assets/BG_Image.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -160,3 +162,29 @@ body {
     font-family:big_noodle_titling;
     src: url(../Assets/Fonts/big_noodle_titling.ttf);
   }
+
+  /* ===== @media ===== */
+
+@media (max-width: 320px) {
+        body {
+            background-color: aquamarine;
+        }
+        
+        nav li {
+            display: inline-block;
+            font-size: 1.2rem;
+            padding-left: 50px;
+        
+        }
+
+        .Frank_Lucero {
+            margin-top: 1.25rem;
+            margin-left: 1.25rem;
+            float: left;
+        }
+        
+        h1 {
+            font-size: 3rem;
+        }
+
+    }
